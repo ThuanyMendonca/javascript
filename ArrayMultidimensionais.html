@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Array Multidimensionais</title>
+	<meta charset="utf-8">
+
+	<!-- Array Multidimensionais -> Cada elemento do array possui seus próprios elementos (listas) -->
+	<script type="text/javascript">
+		var lista_coisas = Array();
+
+		// Listas coisas está recebendo outra lista de frutas
+		lista_coisas['frutas'] = Array();
+		lista_coisas['pessoas'] = Array();
+
+
+		// Lista de frutas
+		lista_coisas['frutas'][1] = 'Banana';
+		lista_coisas['frutas'][2] = 'Maça';
+		lista_coisas['frutas'][3] = 'Morango';
+
+		// Lista de pessoas
+		lista_coisas['pessoas'][1] = 'João';
+		lista_coisas['pessoas'][2] = 'José';
+		lista_coisas['pessoas'][3] = 'Maria';
+
+
+
+		alert(lista_coisas['frutas'][2]);
+		alert(lista_coisas['pessoas'][2]);
+
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>
