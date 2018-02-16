@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Operadores Lógicos</title>
+	<meta charset="utf-8">
+
+	<script type="text/javascript">
+		var n1 = prompt('Digite a n1:');
+		var n2 = prompt('Digite a n2:');
+		var media = parseInt(n1 + n2) / 2;
+		var faltas = prompt('Porcentagem de faltas: ');
+		var porcentagem = faltas / 100;
+		if((media >= 6) && (porcentagem <= 25)){
+			document.write('Nota: ' + media + '<br> Faltas(%): ' + faltas + '<br>' + 'Aprovado(a)');
+		} else {
+			document.write('Nota: <br>' + media + ' Faltas(%): <br>' + faltas + '<br>' + 'Reprovado(a)');
+		}
+
+
+	</script>
+</head>
+<body>
+	<table border="4px solid">
+		<tr>
+			<th>Operador</th>
+			<th>Nome</th>
+			<th>Função</th>
+		</tr>
+
+		<tr>
+			<td>&&</td>
+			<td>E</td>
+			<td>Verdadeiro se todas as expressões forem verdadeiras</td>
+		</tr>
+
+		<tr>
+			<td>||</td>
+			<td>OU</td>
+			<td>Verdadeiro se pelo menos uma das expressões forem verdeiras</td>
+		</tr>
+
+		<tr>
+			<td>!</td>
+			<td>Negação</td>
+			<td>Inverte o resultado</td>
+		</tr>
+	</table>
+</body>
+</html>
